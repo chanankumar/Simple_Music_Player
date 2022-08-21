@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Hello
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="music-image">
+                <img src="pic/pic 1.jpg" alt="">
+                <h3 id="music-name">Chanan Kumar</h3>
+                <audio src="music/music 1.mp3" id="music-player"></audio>
+            </div>
+            <div class="music-control">
+                <div class="music-time">
+                    <span id="current-time">0:00</span>
+                    <span id="total-time">4:00</span>
+                </div>
+                <div class="progress-bar" id="progress-bar">
+                    <div class="duration-progress" id="duration-progress"></div>
+                </div>
+                <div class="music-control-button">
+                    <i class="fas fa-backward" id="prev" title="Previous"></i>
+                    <i class="fas fa-play main-button" id="play" title="Play"></i>
+                    <i class="fas fa-forward" id="next" title="Next"></i>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

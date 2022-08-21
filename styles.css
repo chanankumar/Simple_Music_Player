@@ -1,0 +1,61 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container { 
+    background-color: rgb(153, 152, 152);
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+}
+.music-image {
+    position: relative;
+    top: -5%;
+}
+.music-image > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+#music-name {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.music-time {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.music-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: white;
+    width: 90%;
+    height: 4px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.duration-progress{
+    background: #242323;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+}
+.music-control-button {
+    margin-top : 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.music-control-button > i{
+    font-size: 30px;
+}
